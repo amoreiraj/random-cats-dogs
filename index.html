@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Cat</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+     <!--Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-white bg-nav">
+        <a class="navbar-brand" href="">Random Pic Finder - Big Data CA2 (API)</a>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <!--Big Picture-->
+                    <img src="img/cat_and_dog.png" id="random_animal" width="500px" height="500px" alt="">
+
+                </div>
+            </div>
+            
+            <div class="row p-5">
+                <div class="col-6 text-center">
+                     <!--Button 1 :  Random Dog -->
+                    <button type="button" id="dog_click_btn" class="btn btn-primary btn-lg btn-block">See Random Dogs</button>
+                </div>
+                <div class="col-6 text-center">
+                    <!--Button 1 :  Random Cat -->
+                    <button type="button" id="cat_click_btn" class="btn btn-primary btn-lg btn-block">See Random Cats</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="navbar-dark text-center">
+        <p>Adriana Moreira | 2017081</p>
+    </footer>
+
+    <!-- Preloader -- Show Loading Screen-->
+    <div class="loader-wrapper">
+        <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-3.5.0.js"> </script>
+    <!--Custom JS File-->
+    <script src="js/script.js"></script>
+
+</body></html>
